@@ -45,7 +45,7 @@ const highlightMenu = () => {
         aboutMenu.classList.remove('highlight');
         return;
     }
-    else if(window.innerWidth > 1000 && scrollPos < 2000){ //only about menu has highlight
+    else if(window.innerWidth > 1000 && scrollPos < 1450){ //only about menu has highlight
         aboutMenu.classList.add('highlight');
         workMenu.classList.remove('highlight');
         return;
