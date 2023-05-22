@@ -257,10 +257,11 @@
     .hero {
         background:none;
         height: 99vh;
+        align-items: flex-start;
     }
 
     .hero__container{
-        padding-bottom:200px;
+        /* padding-bottom:200px; */
     }
 
     .hero__title{
@@ -280,6 +281,7 @@
 
     .hero__heading span{
         text-shadow:none;
+        cursor: none;
     }
       
     .hero__description__container {
