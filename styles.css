@@ -347,7 +347,7 @@ img {
 
 
 /* anything smaller then 768px */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .images__wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
