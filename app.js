@@ -89,6 +89,11 @@ spanBeforeElement.addEventListener('selectstart', function(event) {
     event.preventDefault(); // Prevent the default behavior
 });
 
+spanElement.addEventListener('transitionend', function(event) {
+    spanElement.style.outline = 'none'; // Remove the outline after the pulsate animation
+    event.preventDefault();
+  });
+
 
 
 

@@ -218,7 +218,6 @@
     user-select: none;
     pointer-events: none;
     caret-color: transparent;
-    outline: 2px solid white;
 }
 
 .hero__heading span::before{
@@ -243,12 +242,6 @@
 	0% {background-position: -150%;}
 	150% {background-position: 150%;}
 }
-
-.hero__heading span:focus {
-    outline: none;
-    cursor: none;
-}
-
 
 .hero__description__container {
     margin-top: -30px;
