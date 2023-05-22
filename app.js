@@ -72,6 +72,13 @@ icons.forEach(icon => {
 });
 
 
+// Get the span element
+const spanElement = document.querySelector('.hero__heading span');
+// Add a click event listener to the span element
+spanElement.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default behavior
+});
+
 
 
 
