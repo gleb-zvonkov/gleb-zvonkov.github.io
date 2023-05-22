@@ -198,6 +198,7 @@
     align-items: center;
     user-select: none;
     pointer-events: none;
+    caret-color: transparent;
 }
 
 .heading__coral{
@@ -216,6 +217,7 @@
     cursor: none;
     user-select: none;
     pointer-events: none;
+    caret-color: transparent;
 }
 
 .hero__heading span::before{
@@ -233,6 +235,7 @@
     cursor: none;
     user-select: none;
     pointer-events: none;
+    caret-color: transparent;
 }
 
 @keyframes shine {
