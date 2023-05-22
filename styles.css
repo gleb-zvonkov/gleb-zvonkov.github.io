@@ -64,7 +64,7 @@
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1150px){
     .navbar{
         height:60px;
     }
@@ -213,6 +213,7 @@
 }
 
 .hero__heading span::before{
+
     content: attr(data-heading);
 	position: absolute;
 	background: linear-gradient(45deg, rgba(255,255,255,0) 45%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 100%);
@@ -228,6 +229,10 @@
 @keyframes shine {
 	0% {background-position: -150%;}
 	150% {background-position: 150%;}
+}
+
+.hero__heading span:focus {
+    outline: none;
 }
 
 
@@ -264,10 +269,13 @@
      }
 
     .hero__heading {
-        margin-top:-30px;
         font-size: clamp(6rem, 4vw, 10rem);
         text-align: center;
         text-shadow: -1px -1px 0 #00196c, 1px -1px 0 #00196c, -1px 1px 0 #00196c, 1px 1px 0 #00196c;
+    }
+
+    .heading__coral{
+        line-height: 0.8;
     }
 
     .hero__heading span{
@@ -364,7 +372,7 @@ img {
     /* font-size: clamp(20px, 2vw, 30px); */
     padding-left:40px;
     padding-right:40px;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
   
