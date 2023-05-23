@@ -72,10 +72,11 @@ icons.forEach(icon => {
 });
 
 
-const spanElement = document.querySelector('.hero__heading span');
+const spanElement = document.querySelector('.hero__heading');
 spanElement.addEventListener('transitionend', function(event) {  //'selectstart'
     spanElement.style.outline = 'none'; // Remove the outline after the pulsate animation
     event.preventDefault();
+    event.stopPropagation();
   });
 
 
