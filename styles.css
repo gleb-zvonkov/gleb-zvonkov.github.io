@@ -198,7 +198,6 @@
     align-items: center;
     user-select: none;
     pointer-events: none;
-    caret-color: transparent;
 }
 
 .heading__coral{
@@ -218,6 +217,7 @@
     text-decoration: none;
     -webkit-text-stroke-width: 0;
     text-shadow:none;
+    box-shadow: none;
 }
 
 .hero__heading span::before{
