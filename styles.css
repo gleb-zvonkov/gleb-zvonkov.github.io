@@ -213,11 +213,11 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; 
     -webkit-tap-highlight-color: transparent;
-    /* text-shadow:none; */
-    cursor: none;
-    user-select: none;
-    pointer-events: none;
-    caret-color: transparent;
+    -webkit-user-select: none;
+    outline: none;
+    text-decoration: none;
+    -webkit-text-stroke-width: 0;
+    text-shadow:none;
 }
 
 .hero__heading span::before{
@@ -232,10 +232,6 @@
 		2px 2px 10px rgba(#000, 0.2),
 		-2px 2px 10px rgba(#000, 0.2),
 		-2px -2px 10px rgba(#000, 0.2);
-    cursor: none;
-    user-select: none;
-    pointer-events: none;
-    caret-color: transparent;
 }
 
 @keyframes shine {
@@ -290,7 +286,6 @@
 
     .hero__heading span{
         text-shadow:none;
-        cursor: none;
     }
       
     .hero__description__container {
