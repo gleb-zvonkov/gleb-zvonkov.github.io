@@ -72,24 +72,8 @@ icons.forEach(icon => {
 });
 
 
-// Get the span element
 const spanElement = document.querySelector('.hero__heading span');
-// Add a click event listener to the span element
-spanElement.addEventListener('selectstart', function(event) {
-  event.preventDefault(); // Prevent the default behavior
-});
-
-const headingElement = document.querySelector('.hero__heading');
-headingElement.addEventListener('selectstart', function(event) {
-    event.preventDefault(); // Prevent the default behavior
-});
-
-const spanBeforeElement = document.querySelector('.hero__heading span::before');
-spanBeforeElement.addEventListener('selectstart', function(event) {
-    event.preventDefault(); // Prevent the default behavior
-});
-
-spanElement.addEventListener('transitionend', function(event) {
+spanElement.addEventListener('transitionend', function(event) {  //'selectstart'
     spanElement.style.outline = 'none'; // Remove the outline after the pulsate animation
     event.preventDefault();
   });
