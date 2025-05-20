@@ -534,3 +534,62 @@ img {
     }
 
   }
+
+  /* booking section */
+
+  .booking {
+      padding: 80px 40px;
+      color: #00196c;
+  }
+
+  .booking__form {
+      max-width: 700px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .form__group {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .form__group label {
+      font-weight: 600;
+      margin-bottom: 5px;
+  }
+
+  .form__group input,
+  .form__group textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+  }
+
+  .submit__btn {
+      padding: 12px;
+      font-size: 1rem;
+      background-color: #00196c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .submit__btn:hover {
+      background-color: #0030a0;
+  }
+
+  #form-message {
+    display: none;
+    color: #00196c; /* Same deep blue as used throughout site */
+    text-align: center;
+    font-size: clamp(1.5rem, 3vw, 2rem); /* Large and responsive */
+    font-weight: 600;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}

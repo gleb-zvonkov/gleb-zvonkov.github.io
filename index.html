@@ -31,6 +31,11 @@
                 <li class="navbar__item">
                     <a href="#about" class="navbar__links" id="about-page">About</a>
                 </li>
+
+                <li class="navbar__item">
+                    <a href="#booking" class="navbar__links" id="booking-page">Booking</a>
+                </li>
+
             </ul>
         </div>
     </nav>
@@ -73,7 +78,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
+    <!-- Footer/About -->
     <div class="footer" id="about">
         <div class="footer__wrapper">
             <div class="left box">
@@ -101,7 +106,7 @@
                 </div>
                 <div class="item">
                     <span class="fa-regular fa-envelope icon"> </span>
-                    <a href="mailto:coralwindowcleaning@gmail.com" class="text">coralwindowcleaning@gmail.com</a>
+                    <a href="mailto:coralwindowcleaning@gmail.com" class="text">coral.window.cleaning@gmail.com</a>
                 </div>
                 <div class="item">
                     <span class="fa-brands fa-instagram icon"> </span>
@@ -114,6 +119,55 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Booking -->
+    <div class="booking" id="booking">
+    <h2 class="header">Booking</h2>
+    <form class="booking__form" id="bookingForm"  method="POST">
+        
+        <!-- Name -->
+        <div class="form__group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form__group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form__group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <!-- Location -->
+        <div class="form__group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" required>
+        </div>
+
+        <!-- Time -->
+        <div class="form__group">
+        <label for="time">Preferred Time</label>
+        <input type="datetime-local" id="time" name="time">
+        </div>
+
+        <!-- Additional Info -->
+        <div class="form__group">
+        <label for="info">Additional Info</label>
+        <textarea id="info" name="info" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="submit__btn">Submit</button>
+    </form>
+    </div>
+
+    <div id="form-message">
+         Thank you! We will get back to you soon.
     </div>
 
     <script src="app.js"></script>
