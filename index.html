@@ -1,176 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoralWindow Website</title>
-    <link rel="stylesheet" href="styles.css">   
-    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">   
+  <meta charset="UTF-8">
+  <title>Gleb Zvonkov Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <div class="container">
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#work" class="navbar__links" id="work-page">Our Work</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page">About</a>
-                </li>
+    <div class="header">
+        <img src="profile_pic.JPG" alt="Gleb Zvonkov profile picture" class="profile-pic">
 
-                <li class="navbar__item">
-                    <a href="#booking" class="navbar__links" id="booking-page">Booking</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
-
-     <!-- Hero Section -->
-     <div class="hero" id="home">
-        <div class="hero__container">
-            <div class="hero__title">  
-                <h1 class="hero__heading heading__coral">Coral</h1>
-                <h1 class="hero__heading heading__window shine" data-heading="Window">Window</h1>
-            </div>  
-            <div class="hero__description__container">
-                <p class="hero__description">Professional Window Cleaning</p>
-                <p class="hero__description">Residential & Commercial</p>
+        <div class="profile-info">
+            <p class="name">Gleb Zvonkov</p>
+            <div class="icon-row">
+                <a href="https://linkedin.com/in/gleb-zvonkov" target="_blank">
+                <img src="icons/LinkedIn_icon.svg.webp" alt="LinkedIn" class="icon">
+                </a>
+                <a href="https://github.com/gleb-zvonkov" target="_blank">
+                <img src="icons/github.png" alt="GitHub" class="icon">
+                </a>
+                <a href="https://medium.com/@gleb.zvonkov" target="_blank">
+                <img src="icons/5968906.png" alt="Medium" class="icon">
+                </a>
+                <a href="CV.pdf" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/cv.png" alt="CV" class="icon">
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&to=gleb.zvonkov@gmail.com" target="_blank">
+                    <img src="icons/google_mail_gmail_logo_icon_159346.webp" alt="Email" class="icon">
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- Social Section -->
-    <div class="images" id="work"> 
-        <div class="images__wrapper">  
-            <a href="https://www.instagram.com/p/ClhYuLVppXl/">
-                <img src="./images/image6.jpg" class="social__img">
+    <div class="content">
+
+    <section>
+        <h2>Websites</h2>
+        <div class="ventures-links">
+            <a href="https://coralwindow.ca/movieWebsite/" target="_blank">
+            <img src="logos/theCine.png" alt="theCine" class="website-logo">
             </a>
-            <a href="https://www.instagram.com/p/Codt6oUuoQL/">
-                <img src="./images/image4.jpg" class="social__img">
+            <a href="https://coralwindow.ca/" target="_blank">
+            <img src="logos/coralWindow.png" alt="CoralWindow" class="website-logo" style="padding-top: 40px;">
             </a>
-            <a href="https://www.instagram.com/p/Cl41HXPJJLK/">
-                <img src="./images/image5.jpg" class="social__img">
-            </a>
-            <a href="https://www.instagram.com/p/Cljn6VVppnR/">
-                <img src="./images/image2.jpg" class="social__img">
-            </a>
-            <a href="https://www.instagram.com/coral.window.cleaning/">
-                <img src="./images/image10.jpg" class="social__img">
-            </a>
-            <a href="https://www.instagram.com/p/CrAJ5c_MF5f/">
-                <img src="./images/image1.jpg" class="social__img">
-            </a> 
         </div>
-    </div>
-
-    <!-- Footer/About -->
-    <div class="footer" id="about">
-        <div class="footer__wrapper">
-            <div class="left box">
-                <h2 class="header">About Us</h2>
-                <div>
-                    <p>Coral Window Cleaning ensures your satisfaction with affordable pricing, flexible scheduling, and a dedicated team. We take care of every detail, providing extra services like dirt removal and frame cleaning to keep your home or business spotless.</p>
-                  </div>
-            </div>
-            <div class="center box">
-                <h2 class="header">Services</h2>
-                <ul class="list">
-                        <li>Exterior Window Washing</li>
-                        <li>Interior Window Washing</li>
-                        <li>Window Cleaning</li>
-                        <li>Glass Door Cleaning</li>
-                        <li>Mirror Cleaning</li>
-                        <li>Window Frame Cleaning</li>      
-                  </ul> 
-            </div>
-            <div class="right box">
-                <h2 class="header">Contact</h2>
-                <div class="item">
-                    <span class="fa-solid fa-phone icon"> </span>
-                    <a href="tel:+12265043591" class="text">226-504-3591</a>
-                </div>
-                <div class="item">
-                    <span class="fa-regular fa-envelope icon"> </span>
-                    <a href="mailto:coralwindowcleaning@gmail.com" class="text">coral.window.cleaning@gmail.com</a>
-                </div>
-                <div class="item">
-                    <span class="fa-brands fa-instagram icon"> </span>
-                    <a href="https://www.instagram.com/coral.window.cleaning/" class="text">coral.window.cleaning</a>
-                </div>
-
-                <div class="item">
-                    <span class="fa-brands fa-yelp icon"> </span>
-                    <a href="https://www.yelp.ca/biz/coral-window-cleaning-london?osq=Window+Cleaning" class="text">coral-window-cleaning</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Booking -->
-    <div class="booking" id="booking">
-    <h2 class="header">Booking</h2>
-    <form class="booking__form" id="bookingForm"  method="POST">
         
-        <!-- Name -->
-        <div class="form__group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-        </div>
 
-        <!-- Email -->
-        <div class="form__group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-        </div>
+    </section>
 
-        <!-- Phone Number -->
-        <div class="form__group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" required>
-        </div>
+    <section>
+        <h2>Articles</h2>
+        <div class="articles">
+            
+                <a href="https://medium.com/@gleb.zvonkov/sentiment-analysis-of-movie-reviews-using-machine-learning-models-02a828bcf7f1" target="_blank">
+                    <img src="articles/sentimentAnalysis.png" alt="" class="article">
+                </a> 
+                <a href="https://medium.com/@gleb.zvonkov/predicting-student-depression-56792c7372e0" target="_blank">
+                    <img src="articles/predictingStudentDepression.png" alt="" class="article">
+                </a>
+            
+                <a href="https://medium.com/@gleb.zvonkov/circular-running-routes-66fa2c2b1ac7" target="_blank">
+                    <img src="articles/CircularRuningRoutes.png" alt="" class="article">
+                </a> 
 
-        <!-- Location -->
-        <div class="form__group">
-        <label for="location">Location</label>
-        <input type="text" id="location" name="location" required>
+                <!-- <a href="https://medium.com/@gleb.zvonkov/comparing-recommendation-methods-through-the-development-of-a-movie-recommendation-system-8cd92ddc02db" target="_blank">
+                    <img src="articles/movieRecommendations.png" alt="" class="article">
+                </a>     -->
+            
+            
         </div>
+    </section>
 
-        <!-- Time -->
-        <div class="form__group">
-        <label for="time">Preferred Time</label>
-        <input type="datetime-local" id="time" name="time">
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+
+            <div class="two_images">
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/fire2.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Wildland Firefighting in Saskatchewan</div>
+                    </a>
+                </div>
+                
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/tree_planting3.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Tree Planting in British Columbia</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="two_images">
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/spain.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Cape Finisterre After Running 1000 km</div>
+                    </a>
+                </div>
+
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/prague.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Exploring Prague</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="two_images">
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/mount_saint_anne.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Night Hike up Mount Saint Anne</div>
+                    </a>
+                </div>
+
+                <div class="image-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="gallery/lake_huron.jpg" alt="theCine" class="image">
+                    <div class="hover-text">Annual Bike Ride to Lake Huron</div>
+                    </a>
+                </div>
+            </div>
+
+
         </div>
+    </section>
 
-        <!-- Additional Info -->
-        <div class="form__group">
-        <label for="info">Additional Info</label>
-        <textarea id="info" name="info" rows="4"></textarea>
-        </div>
-
-        <button type="submit" class="submit__btn">Submit</button>
-    </form>
     </div>
 
-    <div id="form-message">
-         Thank you! We will get back to you soon.
-    </div>
-
-    <script src="app.js"></script>
     
+  </div>
 </body>
+
+
+
+
 </html>
