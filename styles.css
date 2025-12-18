@@ -173,29 +173,40 @@ body {
 
 .website-links {
   display: flex;
+  flex-direction: column;   /* stack vertically */
   align-items: center;
   width: 100%;
-  padding: 60px 0;
-  border: 1.5px solid rgba(0, 0, 0, 0.4);
-  border-radius: 12px;
+  background: white;
+  padding-bottom: 60px;
+  gap: 40px;                /* space between cards */
 }
 
 .website-links a {
-  flex: 1;                 /* each link takes equal horizontal space */
+  width: fit-content;
   display: flex;
-  justify-content: center; /* center logo inside its column */
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.website-links a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
 .website-logo {
-  width: 100%;             /* scale with available space */
-  max-width: 300px;        /* cap size so it doesn’t get ridiculous */
+  width: auto;
+  max-width: 420px;
   height: auto;
-  transition: transform 0.2s ease;
 }
 
-.website-logo:hover {
-  transform: scale(1.05);
-}
+
 
 
 
