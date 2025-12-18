@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
 }
 
@@ -144,10 +144,6 @@ body {
   opacity: 0;
 }
 
-
-
-
-
 /* 
 * articles section
 */
@@ -157,6 +153,7 @@ body {
   flex-direction: column; /* stack vertically */
   align-items: center;     /* center horizontally */
   gap: 3em;              /* spacing between logos */
+  padding-bottom: 60px;
 }
 
 .article{
@@ -170,7 +167,35 @@ body {
 }
 
 
+/* 
+* website section
+*/
 
+.website-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0;
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+.website-links a {
+  flex: 1;                 /* each link takes equal horizontal space */
+  display: flex;
+  justify-content: center; /* center logo inside its column */
+}
+
+.website-logo {
+  width: 100%;             /* scale with available space */
+  max-width: 300px;        /* cap size so it doesn’t get ridiculous */
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.website-logo:hover {
+  transform: scale(1.05);
+}
 
 
 

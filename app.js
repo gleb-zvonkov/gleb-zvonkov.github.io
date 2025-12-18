@@ -1,9 +1,3 @@
-
-
-
-
-
-
 document.querySelectorAll(".single-image-container").forEach((container) => {
   const video = container.querySelector("video");
 
