@@ -92,9 +92,9 @@ body {
   text-align: left;
   font-weight: 500;
   color: #6b6b6b;
-  /* strong black outline via layered shadows */
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;    /*inherhit the body font*/
   /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); */
+  text-align: center;
 }
 
 .single-image-container a {
